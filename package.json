@@ -1,0 +1,15 @@
+{
+  "name": "gym-management-system",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "backend:dev": "npm --prefix gym-backend run dev",
+    "backend:start": "npm --prefix gym-backend start",
+    "backend:db:init": "npm --prefix gym-backend run db:init",
+    "backend:test": "npm --prefix gym-backend test",
+    "frontend:dev": "npm --prefix gym-frontend run dev",
+    "frontend:build": "npm --prefix gym-frontend run build",
+    "frontend:start": "npm --prefix gym-frontend start",
+    "frontend:lint": "npm --prefix gym-frontend run lint"
+  }
+}
